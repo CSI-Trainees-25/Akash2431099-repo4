@@ -14,6 +14,7 @@ import businessClass from '../Images/businessClass.png'
 import premiumEconomy from '../Images/premiumEconomy.png'
 import economy from '../Images/economy.png'
 import CardType3 from '../Components/CardType3'
+import Footer from '../Components/Footer'
 
 
 
@@ -101,6 +102,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }
