@@ -75,24 +75,38 @@ function BookingCard() {
                     </div>
                 </div>
                 <div className="md:col-span-6 flex items-center gap-7 text-sm font-medium text-gray-700">
-                    <label className="flex border border-gray-500 p-3 rounded-2xl items-center gap-2 ">
-                        <input className="accent-red-600" type="radio" name="trip" defaultChecked /> Student
+                    <label className="flex border border-gray-500 py-1 px-7 rounded-2xl items-center gap-3 ">
+                        <input className="accent-red-600" type="radio" name="trip" defaultChecked />
+                        <div>
+                            <span >Student</span><br/>
+                            <span className="text-gray-500">Extra Bags</span>
+                        </div> 
                     </label>
-                    <label className="flex border border-gray-500 p-3 rounded-2xl items-center gap-2">
-                        <input className="accent-red-600" type="radio" name="trip" /> Armed Forces
+                    <label className="flex border border-gray-500 py-1 px-7 rounded-2xl items-center gap-3 ">
+                        <input className="accent-red-600" type="radio" name="trip" defaultChecked />
+                        <div>
+                            <span >Armed Forces</span><br/>
+                            <span className="text-gray-500">Up To ₹600 Off</span>
+                        </div> 
                     </label>
-                    <label className="flex border border-gray-500 p-3 rounded-2xl items-center gap-2">
-                        <input className="accent-red-600" type="radio" name="trip" defaultChecked /> Doctors
+                    <label className="flex border border-gray-500 py-1 px-7 rounded-2xl items-center gap-3 ">
+                        <input className="accent-red-600" type="radio" name="trip" defaultChecked />
+                        <div>
+                            <span >Doctors</span><br/>
+                            <span className="text-gray-500">Up To ₹600 Off</span>
+                        </div> 
                     </label>
-                    <label className="flex border border-gray-500 p-3 rounded-2xl items-center gap-2">
-                        <input className="accent-red-600" type="radio" name="trip" /> Senior Citizen
+                    <label className="flex border border-gray-500 py-1 px-7 rounded-2xl items-center gap-3 ">
+                        <input className="accent-red-600" type="radio" name="trip" defaultChecked />
+                        <div>
+                            <span >Senior Citizen</span><br/>
+                            <span className="text-gray-500">Up To ₹600 Off</span>
+                        </div> 
                     </label>
                 </div>
+    
             </div>
         </div>
-      
-    </section>
-  )
-}
+    </section>)}
 
 export default BookingCard
